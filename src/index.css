@@ -11,3 +11,308 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-bg {
+  background-color: antiquewhite;
+  padding: 1rem 0;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.navbar li{
+  padding: 0 1rem;
+}
+
+.navbar li a {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  position: relative;
+  padding: -2rem;
+}
+
+.btn-style{
+  width: 8rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: pink;
+  background-color: green;
+  margin-right: 8rem;
+}
+
+.btn-style{
+  margin-right: -3.5rem;
+  margin-left: 7.5rem;
+ 
+}
+
+.main-hero-container{
+    height: 80vh;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.main-hero-container h1{
+
+  font-weight: bolder;
+}
+
+.main-hero-para{
+  font-size: 1.5rem;
+  margin: 1rem 0 5rem 0; 
+  font-weight: lighter;
+  width: 75%;
+}
+
+.main-hero-container h3{
+
+  font-weight: lighter;
+}
+
+
+
+
+.img-fluid{
+  margin-top: -395px;
+  margin-bottom: 900px;
+  margin-right: 150px;
+  margin-left: 1900px;
+}
+
+
+.work-container {
+  width: 80vw;
+  padding: 5rem;
+  box-shadow: 0 5rem 1.2rem rgba(0, 0, 0, 0.1);
+  margin-top: -0rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.work-container .main-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  word-spacing: 1rem;
+}
+
+.work-container-subdiv {
+  padding: 0 1rem;
+}
+
+.work-container .sub-heading {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.fontawesome-style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--bgcolor);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.common-section {
+  margin: 5rem 0;
+}
+
+.our-services img {
+  width: 50%;
+  height: 15%;
+  margin-top: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+  border-radius: 2rem;
+}
+
+.our-services .mini-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.our-services .main-heading {
+  font-weight: bolder;
+}
+
+.our-services-info {
+  margin-top: 4rem;
+}
+
+.our-services .our-services-number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+.our-services-data {
+  padding-left: 2rem;
+}
+
+.our-services .our-services-data p {
+  margin: 1rem 0;
+}
+
+/* 2nd section of about us  */
+
+.our-services-rightside {
+  margin-top: 10rem;
+}
+
+.our-services-rightside-content {
+  padding-left: 8rem;
+}
+
+
+.service-main-container {
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.service-main-container .main-heading {
+  margin: 3rem 0;
+}
+
+.work-container-subdiv {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+}
+
+.work-container-subdiv:hover {
+  background-color: var(--bgcolor);
+  cursor: pointer;
+}
+
+.work-container-subdiv:hover > .fontawesome-style {
+  background-color: #fff;
+}
+
+.work-container-subdiv .main-hero-para {
+  width: 100%;
+}
+
+.service-main-container .work-container-subdiv .fontawesome-style {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+@media (min-width: 1400px) {
+  .service-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+
+.contactus-section {
+  margin: 15rem 0;
+}
+
+.contact-input-feild {
+  margin-bottom: 4rem;
+}
+
+contact-rightside form .form-control {
+  border: 1px solid #ced4da;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+
+.contact-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 4rem 0;
+}
+
+.contact-rightside form .main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+
+footer {
+  padding: 5rem 0;
+  background-color: #182334;
+  color: #fff;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+footer li:hover {
+  color: var(--primary-color);
+}
+
+footer .fontawesome-style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  width: 0rem;
+  height: 0rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+footer .fontawesome-style:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+@keyframes rotatefont {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+footer .main-hero-para {
+  margin: 0;
+}
